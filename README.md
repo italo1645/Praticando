@@ -1,2 +1,2 @@
 # Praticando
-repositório para patricar exercicios do site Dio.me
+repositório para aplicar conhecimentos adquiridos site Dio.me
