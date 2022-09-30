@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadrastro de curriculo</title>
+
+    <style>
+      .row {
+        margin: 10px;
+      }
+
+      label {
+        width: 100px;
+        text-align: right;
+        display: inline-flexbox;
+        padding-right: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <img src="Caridade.jpeg" alt="pastoral da caridade" width="100" />
+      <h1 style="color: red">Pastoral da Caridade</h1>
+      <h3>Ação Empredabilidade - Dados Currículo</h3>
+      <fieldset>
+        <legend>
+          <b><i>Dados Pessoais</i></b>
+        </legend>
+
+        <div class="row">
+          <label>Nome:</label><input type="text" />
+          <label>Data de nascimento:</label> <input type="date" />
+        </div>
+        <div class="row">
+          <label>Idade:</label><input type="number" /> <label>E-mail:</label
+          ><input type="email" />
+        </div>
+        <div class="row">
+          <label>Telefone:</label><input type="number" />
+          <label>Nacionalidade:</label><input type="text" />
+        </div>
+        <div class="row">
+          <label>Sexo:</label>
+          <select name="sexo">
+            <option value="">Selecione</option>
+            <option value="feminino">Feminino</option>
+            <option value="masculino">Masculino</option>
+            <option value="outro">Não me identifico</option>
+          </select>
+          <label>Estado civil:</label>
+          <select name="role">
+            <option value="">Selecione</option>
+            <option value="casado">Casado(a)</option>
+            <option value="divorciado">Divorciado(a)</option>
+            <option value="solteriro">Solteiro(a)</option>
+            <option value="viuvo">Viúvo(a)</option>
+          </select>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>
+          <b><i>Endereço</i></b>
+        </legend>
+        <div class="row">
+          <label>Rua:</label><input type="text" /><label>Bairro:</label
+          ><input type="text" /> <label>Nº:</label
+          ><input type="number" min="0" />
+        </div>
+        <div class="row">
+          <label>Cidade:</label><input type="text" /><label>Estado:</label
+          ><input type="text" /> <label>CEP:</label
+          ><input type="number" min="0" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>
+          <b><i>Formação</i></b>
+        </legend>
+        <div class="row">
+          <label>Formação:</label>
+          <select name="formacao">
+            <option value="">Selecione</option>
+            <option value="fundamental">Fundametal</option>
+            <option value="medio">Médio</option>
+            <option value="tecnico">Técnico</option>
+            <option value="superior">Superior</option>
+          </select>
+          <label>Status</label>
+          <select name="status">
+            <option value="">Selecione</option>
+            <option value="completo">Completo</option>
+            <option value="incompleto">incompleto</option>
+            <option value="em andamento">Em andamento</option>
+          </select>
+        </div>
+        <div class="row">
+          <label>Nome do Curso(Superior):</label><input type="text" />
+          <label>Instituição:</label><input type="text" />
+        </div>
+        <div class="row">
+          <label>Inicio:</label><input type="month" /> <label>Termino</label
+          ><input type="month" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>
+          <b><i>Cursos Complementares</i></b>
+        </legend>
+        <div class="row">
+          <label>Nome do Curso:</label><input type="text" />
+          <label>Instituição:</label><input type="text" />
+        </div>
+        <div class="row">
+          <label>Inicio:</label><input type="month" /> <label>Termino</label
+          ><input type="month" />
+        </div>
+        <br />
+        <div class="row">
+          <label>Nome do Curso(Superior):</label><input type="text" />
+          <label>Instituição:</label><input type="text" />
+        </div>
+        <div class="row">
+          <label>Inicio:</label><input type="month" /> <label>Termino</label
+          ><input type="month" />
+        </div>
+        <br />
+        <div class="row">
+          <label>Nome do Curso(Superior):</label><input type="text" />
+          <label>Instituição:</label><input type="text" />
+        </div>
+        <div class="row">
+          <label>Inicio:</label><input type="month" /> <label>Termino</label
+          ><input type="month" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>
+          <b><i>Idiomas</i></b>
+        </legend>
+        <div class="row">
+          <label>Idioma</label>
+          <select name="idioma">
+            <option value="">Selecione</option>
+            <option value="ingles">Inglês</option>
+            <option value="espanhol">Espanhol</option>
+            <option value="outros">Outro</option>
+          </select>
+          <label>Outro:</label><input type="text" />
+          <label>Nível:</label>
+          <select name="nivel">
+            <option value="">Selecione</option>
+            <option value="iniciante">Iniciante</option>
+            <option value="intermediario">Intermediário</option>
+            <option value="avançado">Avançado</option>
+          </select>
+        </div>
+        <div class="row">
+          <label>Idioma</label>
+          <select name="idioma">
+            <option value="">Selecione</option>
+            <option value="ingles">Inglês</option>
+            <option value="espanhol">Espanhol</option>
+            <option value="outros">Outro</option>
+          </select>
+          <label>Outro:</label><input type="text" />
+          <label>Nível:</label>
+          <select name="nivel">
+            <option value="">Selecione</option>
+            <option value="iniciante">Iniciante</option>
+            <option value="intermediario">Intermediário</option>
+            <option value="avançado">Avançado</option>
+          </select>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>
+          <b><i>Experiências Profissionais</i></b>
+        </legend>
+        <div class="row">
+          <label>Empresa:</label><input type="text" /> <label>Inicio:</label
+          ><input type="date" /> <label>Saída:</label
+          ><input type="date" /><br />
+          <label>Função da Empresa:</label><input type="text" />
+        </div>
+        <br />
+        <div class="row">
+          <label>Empresa:</label><input type="text" /> <label>Inicio:</label
+          ><input type="date" /> <label>Saída:</label
+          ><input type="date" /><br />
+          <label>Função da Empresa:</label><input type="text" />
+        </div>
+        <br />
+        <div class="row">
+          <label>Empresa:</label><input type="text" /> <label>Inicio:</label
+          ><input type="date" /> <label>Saída:</label
+          ><input type="date" /><br />
+          <label>Função da Empresa:</label><input type="text" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>
+          <b><i>Resumo Profissional</i></b>
+        </legend>
+        <textarea rows="10" cols="90" name="message"> </textarea>
+      </fieldset>
+      <br />
+
+      <button type="submit">Enviar</button><button type="reset">Limpar</button>
+    </form>
+  </body>
+</html>
