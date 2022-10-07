@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina web-básica</title>
+
+    <style>
+      body {
+        margin: 2;
+      }
+      body {
+        background-color: blue;
+        display: flex;
+        justify-content: center;
+      }
+
+      .wrapper {
+        width: 1200px;
+        display: flex;
+        margin: 0 auto;
+        background-color: whitesmoke;
+      }
+      .main {
+        display: flex;
+        flex-flow: column;
+        width: 85%;
+      }
+      .menu {
+        background-color: beige;
+        color: black;
+        text-align: center;
+        border: 1px solid black;
+      }
+      .header {
+        text-align: center;
+      }
+      .footer {
+        background-color: beige;
+        text-align: center;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="menu">
+        <img src="menu1.png" alt="Logo veterinaria" width="150" /><br />
+        <h2>Menu</h2>
+        <ul>
+          <li><a href="#inicial">Página Inicial</a></li>
+        </ul>
+        <ul>
+          <li><a href="#sobre">Sobre a clínica</a></li>
+        </ul>
+        <ul>
+          <li><a href="#atendimento">Horário de Atendimento</a></li>
+        </ul>
+        <ul>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+        <ul>
+          <li><a href="#form">Formulário de contato</a></li>
+        </ul>
+      </div>
+
+      <div class="main">
+        <div class="header">
+          <div class="pagina-incial">
+            <img src="pi.png" alt="" width=" 200" id="inicial" />
+            <p>
+              Tenha uma Clínica Veterinária em Sua Casa. Em Casa com Preço de
+              Clinica. Eutanasia Animal. Atendemos Cães Gatos e Animais
+              Silvestres. Pague em até 6 sem Juros. Veterinario 24 horas.
+            </p>
+          </div>
+          <div class="sobre">
+            <h2 id="sobre">Sobre a clínica</h2>
+            <img src="pet.jpg" alt="" width="300" />
+            <p>
+              Convidamos você para visitar nossa Clínica e Diagnósticos, um
+              Hospital Veterinário moderno, desenvolvido para buscar soluções
+              cada vez mais completas e integradas no cuidado animal. Contamos
+              com uma equipe de médicos veterinários especializados que, aliados
+              à tecnologia, prestam serviços com excelência, humanidade e
+              sustentabilidade. Nossa missão é oferecer medicina veterinária
+              diagnóstica e tratamentos de qualidade para todos, norteada pelo
+              tripé excelência, compromisso e valorização da vida, por meio da
+              prestação de serviços de qualidade, comprometida com os resultados
+              e com o preço acessível.
+            </p>
+          </div>
+          <div class="horario">
+            <h2 id="atendimento">Horário de Atendimento</h2>
+            <img src="pet2.jpg" alt="" width="200" />
+
+            <p>
+              O cuidado com a saúde do seu pet não deve ocorrer apenas quando
+              ele fica doente. Um tutor responsável toma medidas antes que eles
+              desenvolvam problemas de saúde. Isso é medicina preventiva. Ela
+              começa a atuar logo na primeira visita ao veterinário, assim que
+              você adota ou compra seu animal de estimação, seja ele filhote ou
+              adulto. Nessa consulta, o veterinário vai fazer um check-up,
+              montar um calendário de vacinação e vermifugação, auxiliar você a
+              alimentar seu pet com uma dieta saudável e pode até mesmo
+              programar a castração. É importante lembrar que a medicina
+              preventiva deve estar presente ao longo de toda a vida do seu pet,
+              cães idosos, por exemplo, precisam de acompanhamento veterinário a
+              cada 6 meses para identificar qualquer alteração precocemente. Por
+              isso, nunca descuide das doses de reforço das vacinas e não deixe
+              de levá-lo para check-ups regulares.
+            </p>
+
+            <ul>
+              <li><b>Clínica geral:</b> R$ 120,00</li>
+              <li><b>Vacinação Canina e Felina:</b> R$ 70,00</li>
+              <li><b>Castração:</b> R$ 500,00</li>
+              <li><b>Exames: </b> A partir de R$ 120,00</li>
+            </ul>
+            <table border="1">
+              <tr>
+                <th>serviços</th>
+                <th>Segunda a Sexta</th>
+                <th>Sábado</th>
+                <th>Feriados</th>
+              </tr>
+              <tr>
+                <th>Clínica geral</th>
+                <th>08h - 19h</th>
+                <th>08h - 14h</th>
+                <th>08h - 14h</th>
+              </tr>
+              <tr>
+                <th>Vacinação Canina e Felina</th>
+                <th>08h - 19h</th>
+                <th>08h - 14h</th>
+                <th>08h - 14h</th>
+              </tr>
+              <tr>
+                <th>Castração</th>
+                <th>08h - 19h</th>
+                <th>08h - 14h</th>
+                <th>08h - 14h</th>
+              </tr>
+              <tr>
+                <th>Exames</th>
+                <th>08h - 19h</th>
+                <th>08h - 14h</th>
+                <th>08h - 14h</th>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="contato">
+          <h2 id="contato">Contato</h2>
+          <label><b>Tel. e Whatsap:</b> (11) 94544-9164</label><br />
+          <label
+            ><b>Endereço:</b>R. Rio Branco, 38 - Conj. Hab. Pres. Castelo
+            Branco, Carapicuíba - SP, 06326-030</label
+          ><br />
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.094508835647!2d-46.82879688505011!3d-23.529102984698902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf01d78c338a73%3A0xd16c4aca3884dc1f!2sIgreja%20de%20S%C3%A3o%20Paulo%20Ap%C3%B3stolo!5e0!3m2!1spt-BR!2sbr!4v1665109711457!5m2!1spt-BR!2sbr"
+            width="400"
+            height="400"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <br />
+        <div class="formulario">
+          <form>
+            <fieldset>
+              <legend id="form"><b>Formulário de contato</b></legend>
+              <div class="pt1">
+                <label><b>Nome:</b></label
+                ><input type="text" /> <label><b>E-mail:</b></label
+                ><input type="email" />
+              </div>
+              <div class="pt2">
+                <label><b>Assunto:</b></label
+                ><input type="text" /> <label><b>Mensagem:</b></label
+                ><textarea></textarea>
+              </div>
+            </fieldset>
+            <br />
+            <button type="submit">Enviar</button
+            ><button type="reset">Apagar</button>
+          </form>
+        </div>
+        <br />
+
+        <div class="footer">
+          <a href="#inicial">Página Inicial</a>
+          <a href="#sobre">Sobre a clínica</a>
+          <a href="#atendimento">Horário de Atendimento</a>
+          <a href="#contato">Contato</a>
+          <a href="#form">Formulário de contato</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
